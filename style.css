@@ -1,0 +1,66 @@
+/* body = selector
+   declation = tudo que é aplicado após o selctor
+   properties = background, color, border...
+   property value = resposta à propriedade */
+
+body{
+  background-color: #bfbfb4;
+  color: black;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  gap: 80px;
+  margin-left: 120px;
+}
+
+div#container {
+  width: 500px;
+  height: 500px;
+  margin: 150px 0 0;
+}
+
+h1{
+  font-size: 36px;
+}
+
+strong{
+  font-weight: bold;
+  color: #731d2c;
+}
+
+p{
+  font-size: 20px;
+}
+
+p em {
+  font-size: 28px;
+}
+
+img {
+  width: 450px;
+  height: 450px;
+}
+
+.buttom {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  
+  margin-top: -120px;
+  margin-right: auto;
+  padding-left: 310px;
+}
+
+
+
+
